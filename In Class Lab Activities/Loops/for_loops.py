@@ -66,6 +66,23 @@ for i in range(1, 101):
 i=0
 while i < 10:
     print(i)
-    i=i+1"""
+    i=i+1
+
+
+i = 1
+while i <= 2**32:
+    print(i)
+    i *= 2"""
+
+
+keep_going="yes"
+
+while keep_going="yes"
+    a = input("would you like to try again?")
+    if a = "no"
+        keep_going=a
+    else
+
+
 
 
