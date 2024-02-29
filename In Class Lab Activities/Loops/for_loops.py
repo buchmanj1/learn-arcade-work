@@ -39,4 +39,33 @@ for i in range (5):
 
 
 for i in range (10, 0, -1):
-    print(i)"""
+    print(i)
+
+
+for i in range(3):
+    print("a")
+    for j in range(3):
+        print("b")
+
+
+
+a = 0
+for i in range(10):
+    a = a + 1
+    for j in range(10):
+        a = a + 1
+print(a)
+
+
+total = 0
+for i in range(1, 101):
+    total = total + i
+    print(total)
+
+
+i=0
+while i < 10:
+    print(i)
+    i=i+1"""
+
+
