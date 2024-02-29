@@ -1,11 +1,17 @@
 # Review questions chapter 11
 """for i in range(10):
-    print("Hi!")"""
+    print("Hi!")
 
 
 
 
-# General Kenobi
+
 for i in range (5):
     print("Hello")
-print("There")
+print("There")"""
+
+
+for i in range (5):
+    print("Hello")
+    print("There")
+# General Kenobi
