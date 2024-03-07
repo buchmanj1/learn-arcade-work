@@ -4,7 +4,6 @@ camel=0
 natives=-20
 canteen=3
 player=0
-DESERT_SIZE = 200
 
 import random
 #Game Functions
