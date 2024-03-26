@@ -51,3 +51,4 @@ class Star:
 star1 = Star()
 star2 = Star()
 star3 = Star()"""
+
