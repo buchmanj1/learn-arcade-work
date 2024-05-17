@@ -4,14 +4,12 @@ import random
 # Game Functions
 def intro():
     # Starts the game
-    print(
-        "You are part of an elite counter terrorism task force, responsible for bringing down some of the most "
+    print("You are part of an elite counter terrorism task force, responsible for bringing down some of the most "
         "dangerous people in the world.")
     print("For weeks now, you have been tracking an unidentified target.")
     print("All you know is that whoever this individual is, dozens of terrorist attacks can be traced back to them.")
     print(
-        "For a moment you finally had them cornered. However, right before your team could apprehend them, "
-        "the got away.")
+        "For a moment you finally had them cornered. However, right before your team could apprehend them, they got away.")
     print("You followed them into a hidden underground bunker. You've seen something like this before.")
     print("There is a locked door on the far end of this dark room.")
 
@@ -284,7 +282,7 @@ def main():
 
     code = int(str(codeSegment1) + str(codeSegment2) + str(codeSegment3))
 
-    items = ["Door", "Window", "Briefcase", "Ashtray", "Bucket", "Painting", "Jewelry Box", "Rug", "Mirror", "Bookshelf"]
+    items = ["Door", "Window", "Briefcase", "Ashtray", "Bucket", "Painting", "Gem Case", "Rug", "Mirror", "Bookshelf"]
 
     code1Location = random.randint(1, 3)
 
@@ -342,3 +340,4 @@ def main():
 
 
 main()
+
